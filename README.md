@@ -1,7 +1,7 @@
 # zforce-arduino-board-devenv
 
 ## Hardware requirement
-This setup environment is inteded to work with the Neonode Prototyping Board (later referred as the board, or NPB). The board is an Arduino-compatible microcontroller board, based on the [SAMD21](https://www.microchip.com/wwwproducts/en/ATSAMD21E18) MCU. You can connect your zForce AIR Touch Sensor directly to the board through the mounted sensor port with all 8 connector pads exposed to the board.
+This setup environment is inteded to work with the Neonode Prototyping Board (later referred to as the board, or NPB). The board is an Arduino-compatible microcontroller board, based on the [SAMD21](https://www.microchip.com/wwwproducts/en/ATSAMD21E18) MCU. You can connect your zForce AIR Touch Sensor directly to the board through the mounted sensor port with all 8 connector pads exposed to the board.
 
 For further details about the connector pads on the zForce AIR sensor, please refer to [Neonode support page](https://support.neonode.com/docs/). NPB is only intended for development and prototyping, meaning, it is not created to withstand challenging environments or demanding use-cases.
 
