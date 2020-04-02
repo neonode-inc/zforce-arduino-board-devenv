@@ -1,11 +1,11 @@
 # zforce-arduino-board-devenv
 
 ## Hardware requirement
-This setup environment is intended to work with the Neonode Prototyping Board (later referred to as the board, or NPB). The board is an Arduino-compatible microcontroller board, based on the [SAMD21](https://www.microchip.com/wwwproducts/en/ATSAMD21E18) MCU. You can connect your zForce AIR Touch Sensor directly to the board through the mounted sensor port with all 8 connector pads exposed to the board.
+This setup environment is intended to work with the Neonode Prototyping Board (later referred to as the board, or NPB). The board is an Arduino-compatible microcontroller board, based on the [SAMD21](https://www.microchip.com/wwwproducts/en/ATSAMD21E18) MCU. You can connect your Neonode Touch Sensor Module directly to the board through the mounted sensor port with all 8 connector pads exposed to the board.
 
-For further details about the connector pads on the zForce AIR sensor, please refer to [Neonode support page](https://support.neonode.com/docs/display/AIRTSUsersGuide/Electrical+Integration). NPB is only intended for development and prototyping, meaning, it is not created to withstand challenging environments or demanding use-cases.
+For further details about the connector pads on the Touch Sensor Module, please refer to [Neonode support page](https://support.neonode.com/docs/display/AIRTSUsersGuide/Electrical+Integration). NPB is only intended for development and prototyping, meaning, it is not created to withstand challenging environments or demanding use-cases.
 
-NPB can be configured using an Arduino development environment, for example the Arduino IDE. For easier configuration and implementation, include our [Arduino Library](https://github.com/neonode-inc/zforce-arduino) to your zForce AIR Project. 
+NPB can be configured using an Arduino development environment, for example the Arduino IDE. For easier configuration and implementation, include our [Arduino Library](https://github.com/neonode-inc/zforce-arduino) to your Touch Sensor Module project. 
 
 ## Set-up Guide in Arduino IDE
 
@@ -28,4 +28,4 @@ Download and Select Board
 7. Select AVRISP mrkII as Programmer. Go to Tools >> Programmer >> AVRISP mrkII.
     > Alternatively, you can select USBtinyISP as your programmer.
 
-8. Include the zForce AIR Library. Refer to our [Arduino Library](https://github.com/neonode-inc/zforce-arduino) for easier communication with the zForce AIR Touch Sensor.
+8. Include the zForce Library. Refer to our [Arduino Library](https://github.com/neonode-inc/zforce-arduino) for easier communication with the Neonode Touch Sensor Module.
